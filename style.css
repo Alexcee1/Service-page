@@ -1,0 +1,108 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    height:140px;
+    width:100%;
+    background-color:rgb(143, 5, 207);
+}
+.bg h1{
+    text-align: center;
+    color:white;
+    padding:20px;
+}
+.main1{
+   display:flex;
+   margin-left:55px;
+}
+.f1,.f2,.f3{
+    height:150px;
+    width:400px;
+    background-color:white;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow:0px 5px 10px 0px rgb(0 , 0 , 0 , 0.2);
+    position:relative;
+    bottom:50px;
+}
+.main2{
+    display:flex;
+    margin-left:55px;
+}
+.item1,.item2,.item3{
+height:150px;
+width:400px;
+background-color:white;
+margin:10px;
+border-radius: 5px;
+box-shadow:0px 5px 10px 0px rgb(0 , 0 , 0 , 0.2);
+position: relative;
+bottom:30px;
+
+}
+.f1,.f2,.f3,.item1,.item2,.item3{
+    text-align: center;
+    padding-top:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+ .icon-bg{
+    background-color: rgb(143, 5, 207);
+    color:white;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left:182px;
+    margin-bottom: 10px;
+}
+.i{
+  height:29px;
+}
+.f1 p,.f2 p,.f3 p,.item1 p,.item2 p,.item3 p{
+    text-align: left;
+    padding-top: 30px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left:20px;
+
+}
+.f1:hover,.f2:hover,.f3:hover,.item1:hover,.item2:hover,.item3:hover{
+    border-bottom: 20px solid rgb(143, 5, 207);
+    height:200px;
+}
+.social-media{
+    background-color: rgb(143, 5, 207);
+    margin-top:20px;
+    width:720px;
+    height:50px;
+    margin-left:300px;
+    border-radius: 10px;
+}
+.ia{
+    color:white;
+    /* border:1px solid white; */
+    height:20px;
+    width:50px;
+    margin-top:15px;
+    
+}
+.social-media ul{
+     display: flex;
+     margin-left:280px;
+     margin-top:20px;
+     padding:none;
+     
+}
+.social-media ul li{
+     list-style: none;
+     padding:none;
+}
+.social-media ul a{
+     text-decoration: none;
+}
+.social-media ul li a:hover{
+    box-shadow:0px 5px 10px 0px rgb(0 , 0 , 0 , 0.2);;
+}
